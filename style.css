@@ -8,13 +8,15 @@ body {
     background: linear-gradient(-45deg, #db3030, #bed206, #fd7924, #36fd0e);
     background-size: 400% 400%;
     animation: gradientBG 10s ease infinite;
-    height: 100vh;
+    /* height: 100vh;  ← bunu kaldır */
+    min-height: 100vh;  /* bunu ekle */
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
 
 @keyframes gradientBG {
     0% {
