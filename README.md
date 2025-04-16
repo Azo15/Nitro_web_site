@@ -1,93 +1,62 @@
-# My Website 🌐 | Kişisel Web Sitesi
+# 💻 Simple Static Website Project | Basit Statik Web Sitesi Projesi
 
-## 🧾 Description | Açıklama
+## 🌐 Live Preview | Canlı Önizleme  
+[🔗 https://azo15.github.io/my-website](https://azo15.github.io/my-website)
 
-**EN:**  
-This is a personal static website project created using only **HTML** and **CSS**. It contains a modern and responsive layout with images, text sections, and navigation. The project is hosted on GitHub Pages and aims to demonstrate basic front-end web development skills.
-
-**TR:**  
-Bu proje, yalnızca **HTML** ve **CSS** kullanılarak hazırlanmış kişisel bir statik web sitesidir. Modern ve duyarlı (responsive) bir tasarım içermekte; görseller, metin bölümleri ve gezinme alanlarıyla birlikte temel ön yüz (front-end) geliştirme becerilerini göstermeyi amaçlamaktadır. Proje GitHub Pages üzerinde yayınlanmıştır.
+## 📁 GitHub Repository  
+[🔗 https://github.com/Azo15/my-website](https://github.com/Azo15/my-website)
 
 ---
 
-## 📷 Demo
+## 🇬🇧 Project Overview
 
-🔗 [Live Website | Canlı Site](https://azo15.github.io/my-website/)
+💡 This project was created as part of my self-learning journey to improve my frontend development skills.  
+It is a simple, clean, and responsive static website built using only **HTML** and **CSS**.  
 
----
+### 🎯 Goals:
+- ✨ Build a clean and modern user interface  
+- 📱 Ensure responsive design for mobile and desktop  
+- 🖼️ Add visual elements for better presentation
 
-## 🛠️ Technologies | Kullanılan Teknolojiler
+### 🔧 Technologies Used:
+- HTML5  
+- CSS3  
+- Git & GitHub  
+- GitHub Pages for deployment
 
-- HTML5
-- CSS3
-- Git & GitHub
-- GitHub Pages (for deployment)
-
----
-
-## 🗂️ Folder Structure | Klasör Yapısı
-
-```
-my-website/
-│
-├── index.html
-├── style.css
-├── shoes.png
-├── README.md
-└── (future folders like images/, css/, etc.)
-```
+### 📸 Screenshots
+Feel free to visit the live site to see the full design in action!
 
 ---
 
-## 🚀 How to Run Locally | Yerelde Nasıl Çalıştırılır
+## 🇹🇷 Proje Hakkında
 
-**EN:**
+💡 Bu proje, frontend (arayüz) geliştirme becerilerimi artırmak amacıyla gerçekleştirdiğim bir çalışmadır.  
+Sadece **HTML** ve **CSS** kullanılarak oluşturulmuş, basit ama etkili bir statik web sitesidir.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/azo15/my-website.git
-   cd my-website
-   ```
-2. Open `index.html` in your browser.
+### 🎯 Hedefler:
+- ✨ Temiz ve modern bir kullanıcı arayüzü tasarlamak  
+- 📱 Mobil ve masaüstü cihazlar için uyumlu hale getirmek  
+- 🖼️ Görsel ögelerle içerik zenginliği sağlamak
 
-**TR:**
+### 🔧 Kullanılan Teknolojiler:
+- HTML5  
+- CSS3  
+- Git & GitHub  
+- GitHub Pages (yayınlamak için)
 
-1. Depoyu klonlayın:
-   ```bash
-   git clone https://github.com/azo15/my-website.git
-   cd my-website
-   ```
-2. `index.html` dosyasını tarayıcınızda açın.
-
----
-
-## 🖼️ Screenshot | Ekran Görüntüsü
-
-![Website Screenshot](./shoes.png)
+### 📸 Ekran Görüntüsü
+Tasarımı görmek için canlı siteye göz atabilirsiniz!
 
 ---
 
-## 📌 Features | Özellikler
-
-- ✅ Mobile-friendly responsive design
-- ✅ Simple and clean layout
-- ✅ GitHub Pages ile ücretsiz hosting
-- ✅ Resim ve metin alanları
-- ✅ Sade navigasyon çubuğu
+## 🤝 Contributing | Katkıda Bulunmak
+Pull request'ler her zaman memnuniyetle karşılanır.  
+Her türlü öneri, geri bildirim veya geliştirme fikrine açığım! 🚀
 
 ---
 
-## 📧 Contact | İletişim
+## 🧑‍💻 Author | Geliştirici
+**Azo İsmail**  
+[🌍 GitHub](https://github.com/Azo15) | [🔗 LinkedIn](https://www.linkedin.com/in/ismailazo)
 
-**EN:**  
-If you'd like to contact me, you can reach me via [LinkedIn](https://www.linkedin.com/in/ismailazo) or [GitHub](https://github.com/Azo15).
-
-**TR:**  
-Benimle iletişime geçmek isterseniz [LinkedIn](https://www.linkedin.com/in/ismailazo) veya [GitHub](https://github.com/Azo15) üzerinden ulaşabilirsiniz.
-
----
-
-## 📜 License | Lisans
-
-This project is open-source and available under the [MIT License](LICENSE).  
-Bu proje açık kaynaklıdır ve [MIT Lisansı](LICENSE) altında sunulmaktadır.
