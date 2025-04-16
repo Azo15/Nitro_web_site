@@ -1,0 +1,250 @@
+* { 
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: linear-gradient(-45deg, #db3030, #bed206, #fd7924, #36fd0e);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes fadeSlideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.content .text, 
+.content .image {
+    animation: fadeSlideIn 1.5s ease-out;
+}
+
+.container { 
+    flex-grow: 1;
+    width: 95%;
+    max-width: 1400px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+nav { 
+    display: flex;
+    justify-content: space-between; /* Logoyu sola, menü öğelerini sağa yerleştiriyoruz */
+    align-items: center;
+    width: 100%;
+    padding: 20px 40px;
+    flex-wrap: wrap;
+}
+
+nav .logo { 
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: 750;
+    flex: 1; /* Logonun sola yerleşmesini sağlıyoruz */
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center; /* Menü öğelerini tam ortada hizalar*/
+    flex: 2; /* Menü öğelerinin merkezde yer almasını sağlar */
+}
+
+nav ul li { 
+    margin: 0 15px; 
+}
+
+nav ul li a {  
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+} 
+
+nav ul li a:hover { 
+    color: #e80202;
+}
+
+.logo:hover {
+    color: black;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #ff0066;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0 0 15px rgba(255, 0, 102, 0.5);
+    transition: all 0.4s ease;
+}
+
+.cta-button:hover {
+    background: #fff;
+    color: #ff0066;
+    box-shadow: 0 0 25px rgba(255, 0, 102, 0.8);
+    transform: scale(1.05);
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+
+.content .text {
+    color: #fff;
+    width: 45%;
+}
+
+.content .text h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.content .text p {
+    font-size: 18px;
+    line-height: 25px;
+    margin: 10px 0;
+    letter-spacing: 1px;
+}
+
+.content .image {
+    width: 50%;
+}
+
+.content .image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a:hover,
+button:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+    opacity: 0.9;
+}
+
+img:hover {
+    transform: scale(1.08);
+    transition: transform 0.6s ease;
+    cursor: pointer;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 40px auto;
+}
+
+.social-media img {
+    width: 45px;
+    height: 45px;
+    transition: transform 0.3s ease;
+    filter: brightness(0) invert(1);
+}
+
+.social-media img:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 8px #fff);
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content .text, 
+    .content .image {
+        width: 90%;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .container {
+        height: auto;
+        width: 95%;
+        padding-bottom: 30px;
+    }
+}
+
+footer {
+    width: 92%;
+    padding: 25px 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 20px 20px 0 0;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.footer-social img {
+    width: 40px;
+    height: 40px;
+    filter: brightness(0) invert(1);
+    transition: transform 0.3s ease;
+}
+
+.footer-social img:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 8px #fff);
+}
