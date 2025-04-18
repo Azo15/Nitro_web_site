@@ -4,7 +4,7 @@
 [🔗 https://azo15.github.io/Nitro_web_site/](https://azo15.github.io/Nitro_web_site/)
 
 ## 📁 GitHub Repository  
-[🔗 https://azo15.github.io/Nitro_web_site/](https://azo15.github.io/Nitro_web_site/)
+[🔗 https://github.com/Azo15/Nitro_web_site.git](https://github.com/Azo15/Nitro_web_site.git)
 
 ---
 
