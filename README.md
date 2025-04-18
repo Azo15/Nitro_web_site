@@ -1,10 +1,10 @@
 # 💻 Simple Static Website Project | Basit Statik Web Sitesi Projesi
 
 ## 🌐 Live Preview | Canlı Önizleme  
-[🔗 https://azo15.github.io/my-website](https://azo15.github.io/my-website)
+[🔗 https://azo15.github.io/Nitro_web_site/](https://azo15.github.io/Nitro_web_site/)
 
 ## 📁 GitHub Repository  
-[🔗 https://github.com/Azo15/my-website](https://github.com/Azo15/my-website)
+[🔗 https://azo15.github.io/Nitro_web_site/](https://azo15.github.io/Nitro_web_site/)
 
 ---
 
